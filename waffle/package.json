@@ -1,0 +1,20 @@
+{
+  "name": "waffle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@openzeppelin/contracts": "^3.3.0",
+    "chai": "^4.2.0",
+    "ethereum-waffle": "^3.2.1",
+    "mocha": "^8.2.1"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.0.12"
+  },
+  "scripts": {
+    "build": "waffle",
+    "test": "export NODE_ENV=test && mocha"
+  }
+}

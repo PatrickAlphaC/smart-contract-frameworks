@@ -1,0 +1,48 @@
+
+Welcome to Gradle 5.6!
+
+Here are the highlights of this release:
+ - Incremental Groovy compilation
+ - Groovy compile avoidance
+ - Test fixtures for Java projects
+ - Manage plugin versions via settings script
+
+For more details see https://docs.gradle.org/5.6/release-notes.html
+
+
+> Configure project :
+
+The 'org.jetbrains.kotlin.platform.*' plugins are deprecated and will no longer be available in Kotlin 1.4.
+Please migrate the project to the 'org.jetbrains.kotlin.multiplatform' plugin.
+See: https://kotlinlang.org/docs/reference/building-mpp-with-gradle.html
+
+> Task :nodeSetup
+> Task :npmSetup SKIPPED
+> Task :resolveSolidity
+
+> Task :npmInstall
+npm notice created a lockfile as package-lock.json. You should commit this file.
+added 1 package from 1 contributor and audited 1 package in 1.801s
+found 0 vulnerabilities
+
+
+> Task :compileSolidity
+Solidity version 0.6.12 is not installed. Downloading and installing it to ~/.web3j/solc/0.6.12
+Compiler run successful. Artifact(s) can be found in directory build/resources/main/solidity.
+
+> Task :generateContractWrappers
+Definition of the function approve returns a value but is not defined as a view function. Please ensure it contains the view modifier if you want to read the return value
+Definition of the function transfer returns a value but is not defined as a view function. Please ensure it contains the view modifier if you want to read the return value
+Definition of the function transferFrom returns a value but is not defined as a view function. Please ensure it contains the view modifier if you want to read the return value
+Generating io.epirus.wrappers.ERC777Token ... File written to /Users/patrick/code/frameworks/epirus/project/Web3App/build/generated/sources/web3j/main/java
+
+
+> Task :generateWeb3jOpenApi
+Generating Web3j-OpenAPI project ... Files written to /Users/patrick/code/frameworks/epirus/project/Web3App/build/generated/sources/web3j/main/kotlin
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.6/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 25s
+6 actionable tasks: 6 executed

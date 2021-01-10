@@ -1,0 +1,24 @@
+{
+  "0x3497438e60b8de9ee577ad92d4f842c0b74a96de6537c359fbb89a5ecb3dafa1": {
+    "contracts": {
+      "0xd5b341565dee3f40a6723e410be9c0c9903f344ce455803ba9730b62d7913b6c": {
+        "name": "PriceConsumerV3",
+        "address": "0x04D45b51fe4f00b4478F8b0719Fa779f14c8A194"
+      }
+    },
+    "name": "development"
+  },
+  "0xa3c565fc15c7478862d50ccd6561e3c06b24cc509bf388941c25ea985ce32cb9": {
+    "contracts": {
+      "0xd5b341565dee3f40a6723e410be9c0c9903f344ce455803ba9730b62d7913b6c": {
+        "name": "PriceConsumerV3",
+        "address": "0x8866c51eaa6a13a4c66ae5B26472c50Fa1B6021F"
+      },
+      "0x2f944b47651a53f9820a1fa60f6f7fd2e7f5b5b5b560dd6fb65b92aaadc668d6": {
+        "name": "PriceConsumerV3",
+        "address": "0xF1777E86290b5ED402e5A2EFbFc729637a8Ca388"
+      }
+    },
+    "name": "kovan"
+  }
+}

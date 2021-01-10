@@ -1,0 +1,6 @@
+secrets.json
+node_modules/
+artifacts/
+build/
+embarkArtifacts/
+cache/

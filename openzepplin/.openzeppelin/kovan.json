@@ -1,0 +1,19 @@
+{
+  "contracts": {},
+  "solidityLibs": {},
+  "proxies": {
+    "openzepplin/PriceConsumerV3": [
+      {
+        "address": "0x94965725CE5479b60BD82973137BeBa408B5e169",
+        "kind": "NonProxy",
+        "bytecodeHash": "308231d26a4d257e69391ae3b2f15e24130c648763cac0a4172d0fec19400e63"
+      },
+      {
+        "address": "0x75d6A96AfD06bB0A062eA582e904914625046067",
+        "kind": "NonProxy",
+        "bytecodeHash": "909f55398bd666537b3ecda22c2a1d42a83a0d4d6cccd0fd0ff3ccff7191752b"
+      }
+    ]
+  },
+  "manifestVersion": "2.2"
+}
