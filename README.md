@@ -1,20 +1,37 @@
 # Top Smart Contract/Blockchain Frameworks for 2021
 
-And also blockchain tools, and noteworthy integrations. 
+And also blockchain tools, and noteworthy integrations. We also listed some important non-framework tools after the top 3 section. 
 
 We went through each of the following frameworks:
 
+Top 3 Frameworks
 - [x] Truffle
 - [x] Hardhat
 - [x] Brownie 
+
+Important Non-Framework tools
+- [x] create-eth-app
+- [x] OpenZepplin Contracts & Upgrade Plugin
+- [x] Etherscan Verifier & Block Explorer
+
+Great Beginer tools
+- [x] OneClickDapp
+- [x] Remix
+- [x] Scaffold-ETH
+- [x] eth.build  
+
+Alternative Frameworks
 - [x] Embark
 - [x] Waffle 
 - [x] Dapp.Tools 
-- [x] Etherlime 
-- [x] Parasol 
-- [x] Openzepplin 
 - [x] Sbt 
+- [x] Epirus
+
+Outdated Frameworks
+- [x] Etherlime 
+- [x] Openzepplin 
 - [x] Cobra 
+- [x] Parasol 
 
 Mentionable
 - [x] 0xcert framework 
@@ -152,39 +169,17 @@ Having a backend of smart contracts is great... but if no one can use it, it's w
 ## [Remix](https://remix.ethereum.org/)
 ## [oneclickdapp](https://oneclickdapp.com/)
 
-# The rest of the frameworks
+# Alternative frameworks
 
-The rest of these frameworks are not bad at all, and may work for you. Some of them do have some really cool ideas on what to put into a smart contract framework, and I hope the main 3 take note of some of these awesome ideas. 
+The rest of these frameworks are not bad at all, and may work for you. Some of them do have some really cool ideas on what to put into a smart contract framework, and I hope the main 3 take note of some of these awesome ideas. These are tools that probably could use a little more explore time. 
 
-## Waffle (JS)
 ## Embark (JS)
-## Epirus (JAVA)
-## Openzepplin CLI/SDK (JS)
-## Etherlime (JS)
-## Parasol (JS)
-## SBT (SCALA/CLI)
-## Cobra (PY)
+## Waffle (JS)
 ## Dapp.Tools (HASKELL)
-
-## [Waffle](https://getwaffle.io/)
-
-- Summary: Lightweight javascript framework focused on testing.  
-- Technology
-  - Javascript
-  - Ethers.js
-- Blockchain
-  - Anything you run
-- Has Testing
-- Maintainance
-  - Very Active
-- Support
-  - Active
-- Open Sourced
-
-Waffle can be used as a deployment framework itself... although you'll have to write a lot more of your own custom scripts. It's listed as a smart contract framework, although it feels a little silly to compare it amoungst these other frameworks. Waffle can be used with whatever framework you like, and is currently the default tool for working with Hardhat. Waffle is great, and even better paired with Hardhat. I don't recommend using this by itself, but if you don't want to work with any of the bells and whistles that come with hardhat or truffle, then using this feels like a more raw, simple, customizable version of doing so. 
+## SBT (SCALA/CLI)
+## Epirus (JAVA)
 
 ## [Embark](https://github.com/embarklabs/embark)
-
 - Summary: Javascript framework with a ton of bells and whistles for front end development.  
 - Technology
   - Javascript
@@ -206,25 +201,38 @@ I was surprised to see a framework outside of the top 3 with so many stars on gi
 I think decoupling your front end from your back end is still best-practice, but if you need to spin up a project with a good front end quickly, this might be a project for you to look into. 
 
 I was able to get some support on the issues I was running into, and was happy to see they were aware of the support chat. 100% not a dead project, but not being worked on as activly as something like Hardhat, Brownie, or Truffle. Very cool project, and would recommend anyone check out if they like Hardhat and Truffle. 
-
-## [Cobra](https://github.com/cobraframework/cobra)
-
-- Summary: Inactive python framework.  
+## [Waffle](https://getwaffle.io/)
+- Summary: Lightweight javascript framework focused on testing.  
 - Technology
-  - Python
-  - Web3.py
+  - Javascript
+  - Ethers.js
 - Blockchain
-  - Ganache/Local
-  - Testnets
-  - Mainnet
-- No Test
+  - Anything you run
+- Has Testing
 - Maintainance
-  - Inactive
+  - Very Active
 - Support
-  - Inactive
+  - Active
 - Open Sourced
 
-Unfourtunatly we didn't spend enough time to get a working project done, we had some issues with the installation. It looks like it's very similar to brownie though, with a really intelligent group of contributors. It isn't activly maintained anymore, (as of writting, last commit was 17 months ago) and it looks like it's testing never was fully fleshed out. I see no reason to use this over brownie, but it looks like brownie may have drawn some inspiration from this project as well. 
+Waffle can be used as a deployment framework itself... although you'll have to write a lot more of your own custom scripts. It's listed as a smart contract framework, although it feels a little silly to compare it amoungst these other frameworks. Waffle can be used with whatever framework you like, and is currently the default tool for working with Hardhat. Waffle is great, and even better paired with Hardhat. I don't recommend using this by itself, but if you don't want to work with any of the bells and whistles that come with hardhat or truffle, then using this feels like a more raw, simple, customizable version of doing so. 
+
+## [Dapp.Tools](http://dapp.tools/)
+- Summary: Haskell simple framework used by MakerDAO. 
+- Technology
+  - Haskell/CLI
+- Blockchain
+  - Local/Ganache
+  - Testnets
+  - Mainnet
+- Has Testing
+- Maintainance
+  - Active
+- Support
+  - Active
+- Open Sourced
+
+Tool used by MakerDAO that surprised me. Its written in haskell, but has support for a lot of the plugins like Openzepplin that we use and love. It looks to be a minimalist framework that is powerful enough to do what you want it to do. I was able to get help on deploying my contract with this platform, and was surprised by how clean and simple it was. If you're looking for a minimalist framework then I'd recommend checking this one out as well. 
 
 ## [Epirus](https://docs.epirus.io/sdk/cli/)
 
@@ -244,6 +252,50 @@ Unfourtunatly we didn't spend enough time to get a working project done, we had 
 
 Even though I said it's "truffle like" its not very truffle like at all in style, but in the business sense. They have an open sourced project, but they have a paid upgraded tool for those looking to work more with it. They use javas web3 implementation and it looks like it's still early in the projects development. I was happy to see they had android support, so I'm really curious to see how this project progresses, and we could get more java engineers into the industry, as there are not many java smart contract platforms. I wasn't able to deploy to Kovan, so that was a stopped, but it looks like they have support for rinkeby. In any case, excited to see the project move along. 
 
+## [SBT](https://www.sbt-ethereum.io/)
+- Summary: Command line and scala project that tackles two problems. Hobbyists working with smart contracts and smart contract engineers. 
+- Technology
+  - Scala
+- Blockchain
+  - Local/Ganache
+  - Testnets
+  - Mainnet
+- Has Testing
+- Maintainance
+  - Mily Active
+- Support
+  - Inactive
+- Open Sourced
+
+One of the more interesting projects I played with, this platform focuses on interacting with smart contracts almost solely from the command line, or if you were a scala engineer. I don't almost any scala experience so I don't have a great standpoint to review this platform. Seems like it could be really cool if you know scala and are looking to get into ethereum. 
+
+# Outdated frameworks
+
+These frameworks are no longer supported, and really shouldn't be used anymore. I see no reason to use these over any of the frameworks mentioned above. 
+
+## Openzepplin CLI/SDK (JS)
+## Etherlime (JS)
+## Parasol (JS)
+## Cobra (PY)
+
+## [Cobra](https://github.com/cobraframework/cobra)
+
+- Summary: Inactive python framework.  
+- Technology
+  - Python
+  - Web3.py
+- Blockchain
+  - Ganache/Local
+  - Testnets
+  - Mainnet
+- No Test
+- Maintainance
+  - Inactive
+- Support
+  - Inactive
+- Open Sourced
+
+Unfourtunatly we didn't spend enough time to get a working project done, we had some issues with the installation. It looks like it's very similar to brownie though, with a really intelligent group of contributors. It isn't activly maintained anymore, (as of writting, last commit was 17 months ago) and it looks like it's testing never was fully fleshed out. I see no reason to use this over brownie, but it looks like brownie may have drawn some inspiration from this project as well. 
 ## [Openzepplin CLI/SDK (JS)](https://forum.openzeppelin.com/t/building-for-interoperability-why-we-re-focusing-on-upgrades-plugins/4088)
 
 - Summary: Openzepplin's depreciated smart contract framework. They depreciated to focus on upgrades plugin. Really clean JS framework otherwise. 
@@ -302,40 +354,7 @@ Etherlime seems to be another JS framework that is falling out of favor and not 
 
 Another inactive JS framework (over 2 years without a commit). It has some cool features like `parasol interact` and some integrations, and clearly some really intelligent people worked on this, but I see no reason to use this platform over any of the other JS frameworks. 
 
-## [SBT](https://www.sbt-ethereum.io/)
-- Summary: Command line and scala project that tackles two problems. Hobbyists working with smart contracts and smart contract engineers. 
-- Technology
-  - Scala
-- Blockchain
-  - Local/Ganache
-  - Testnets
-  - Mainnet
-- Has Testing
-- Maintainance
-  - Mily Active
-- Support
-  - Inactive
-- Open Sourced
-
-One of the more interesting projects I played with, this platform focuses on interacting with smart contracts almost solely from the command line, or if you were a scala engineer. I don't almost any scala experience so I don't have a great standpoint to review this platform. Seems like it could be really cool if you know scala and are looking to get into ethereum. 
-
 Mention: 0xcert
 
 0xcert seemed more like an asset manager focused on ETH than a deployment framework, so I will not review 0xcert. 
 
-## [Dapp.Tools](http://dapp.tools/)
-- Summary: Haskell simple framework used by MakerDAO. 
-- Technology
-  - Haskell/CLI
-- Blockchain
-  - Local/Ganache
-  - Testnets
-  - Mainnet
-- Has Testing
-- Maintainance
-  - Active
-- Support
-  - Active
-- Open Sourced
-
-Tool used by MakerDAO that surprised me. Its written in haskell, but has support for a lot of the plugins like Openzepplin that we use and love. It looks to be a minimalist framework that is powerful enough to do what you want it to do. I was able to get help on deploying my contract with this platform, and was surprised by how clean and simple it was. If you're looking for a minimalist framework then I'd recommend checking this one out as well. 
