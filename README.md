@@ -24,7 +24,7 @@ Alternative Frameworks
 - [x] Embark
 - [x] Waffle 
 - [x] Dapp.Tools 
-- [x] Sbt 
+- [x] sbt-ethereum
 - [x] Epirus
 
 Outdated Frameworks
@@ -176,7 +176,7 @@ The rest of these frameworks are not bad at all, and may work for you. Some of t
 ## Embark (JS)
 ## Waffle (JS)
 ## Dapp.Tools (HASKELL)
-## SBT (SCALA/CLI)
+## sbt-ethereum (SCALA/CLI)
 ## Epirus (JAVA)
 
 ## [Embark](https://github.com/embarklabs/embark)
@@ -252,17 +252,17 @@ Tool used by MakerDAO that surprised me. Its written in haskell, but has support
 
 Even though I said it's "truffle like" its not very truffle like at all in style, but in the business sense. They have an open sourced project, but they have a paid upgraded tool for those looking to work more with it. They use javas web3 implementation and it looks like it's still early in the projects development. I was happy to see they had android support, so I'm really curious to see how this project progresses, and we could get more java engineers into the industry, as there are not many java smart contract platforms. I wasn't able to deploy to Kovan, so that was a stopped, but it looks like they have support for rinkeby. In any case, excited to see the project move along. 
 
-## [SBT](https://www.sbt-ethereum.io/)
-- Summary: Command line and scala project that tackles two problems. Hobbyists working with smart contracts and smart contract engineers. 
+## [sbt-ethereum](https://www.sbt-ethereum.io/)
+- Summary: SBT plugin, command line and scala project that tackles two problems. Hobbyists working with smart contracts and smart contract engineers. 
 - Technology
-  - Scala
+  - Scala and SBT
 - Blockchain
   - Local/Ganache
   - Testnets
   - Mainnet
 - Has Testing
 - Maintainance
-  - Mily Active
+  - Mildly Active
 - Support
   - Inactive
 - Open Sourced
