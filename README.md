@@ -178,6 +178,7 @@ The rest of these frameworks are not bad at all, and may work for you. Some of t
 ## Dapp.Tools (HASKELL)
 ## sbt-ethereum (SCALA/CLI)
 ## Epirus (JAVA)
+## Apeworx (Python)
 
 ## [Embark](https://github.com/embarklabs/embark)
 - Summary: Javascript framework with a ton of bells and whistles for front end development.  
@@ -251,6 +252,9 @@ Tool used by MakerDAO that surprised me. Its written in haskell, but has support
   - With Paid upgrades
 
 Even though I said it's "truffle like" its not very truffle like at all in style, but in the business sense. They have an open sourced project, but they have a paid upgraded tool for those looking to work more with it. They use javas web3 implementation and it looks like it's still early in the projects development. I was happy to see they had android support, so I'm really curious to see how this project progresses, and we could get more java engineers into the industry, as there are not many java smart contract platforms. I wasn't able to deploy to Kovan, so that was a stopped, but it looks like they have support for rinkeby. In any case, excited to see the project move along. 
+
+## [ApeWorkx](https://docs.apeworx.io/ape/stable/)
+The Ethereum Development Framework For Python Developers, Data Scientists, And Security Professionals
 
 ## [sbt-ethereum](https://www.sbt-ethereum.io/)
 - Summary: SBT plugin, command line and scala project that tackles two problems. Hobbyists working with smart contracts and smart contract engineers. 
